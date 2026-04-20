@@ -1,0 +1,106 @@
+.block{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .item-1{
+        margin: auto;
+        width: 24%;
+        height: 350px;
+        border-radius: 15px;
+        background-image: url('https://avatars.mds.yandex.net/i?id=a51c3d3a415cc5ebbe255b4d64d4576f1e0e699f-4745534-images-thumbs&n=13');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        overflow: hidden;
+        .text{
+            width: 100%;
+            padding: 10px;
+            color: white;
+            position: absolute;
+            bottom: -150px;
+            transition: all 0.3s linear;
+        }
+        &:hover .text{
+            bottom: 0;
+
+        }
+    }
+    .item-2{
+        margin: auto;
+        width: 24%;
+        height: 350px;
+        border-radius: 15px;
+        background-image: url('https://avatars.mds.yandex.net/i?id=3358d7e823e3844e221375691da31c6a1b888cd1-5163192-images-thumbs&n=13');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        overflow: hidden;
+        .text{
+            width: 100%;
+            padding: 10px;
+            color: white;
+            position: absolute;
+            bottom: -150px;
+            transition: all 0.3s linear;
+        }
+        &:hover .text{
+            bottom: 0;
+
+        }
+    }
+    .item-3{
+        margin: auto;
+        width: 24%;
+        height: 350px;
+        border-radius: 15px;
+        background-image: url('https://avatars.mds.yandex.net/i?id=d22a903d869bf5dcb66a36dfe33e5bcf5cf2f714-5679824-images-thumbs&n=13');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        overflow: hidden;
+        .text{
+            width: 100%;
+            padding: 10px;
+            color: white;
+            position: absolute;
+            bottom: -150px;
+            transition: all 0.3s linear;
+        }
+        &:hover .text{
+            bottom: 0;
+
+        }
+    }
+    .item-4{
+        margin: auto;
+        width: 24%;
+        height: 350px;
+        border-radius: 15px;
+        background-image: url('https://avatars.mds.yandex.net/i?id=df7ba99e1adb92eebf29ce71e906a8a39b8de135-4449234-images-thumbs&n=13');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        overflow: hidden;
+        .text{
+            width: 100%;
+            padding: 10px;
+            color: white;
+            position: absolute;
+            bottom: -150px;
+            transition: all 0.3s linear;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+        }
+        &:hover .text{
+            bottom: 0;
+
+        }
+    }
+}

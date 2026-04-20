@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .card{
+        width: 20%;
+        height: 250px;
+        border: 2px solid green;
+        padding: 15px;
+        font-size: 20px;
+        position: relative;
+    }
+}
+.card:hover p {
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+
+}
+.card:active{
+    background-color: red;
+}
+.card:focus{
+    background-color: black;
+}
+.card::before{
+    content: '';
+    display: block;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -11px;
+    top: 50%;
+    transform: rotate(45deg);
+}
+.card::after{
+    content: '';
+    display: block;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: -11px;
+    top: 50%;
+    transform: rotate(45deg);
+}
+.block{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .item-1{
+        margin: auto;
+        width: 24%;
+        height: 350px;
+        border-radius: 15px;
+        background-image: url('https://i.pinimg.com/736x/d5/f4/fb/d5f4fb20ef96ae1756d6277b66ef121c.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        overflow: hidden;
+        .text{
+            width: 100%;
+            padding: 10px;
+            color: black;
+            position: absolute;
+            background-color: #ffffff91;
+            bottom: -150px;
+            transition: all 0.3s linear;
+        }
+        &:hover .text{
+            bottom: 0;
+
+        }
+    }
+    .item-2{
+        margin: auto;
+        width: 24%;
+        height: 350px;
+        border-radius: 15px;
+        background-image: url('https://i.pinimg.com/736x/4f/3a/4d/4f3a4db9638d81bf5979c68570ebd374.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        overflow: hidden;
+        .text{
+            width: 100%;
+            padding: 10px;
+            color: black;
+            position: absolute;
+            background-color: #ffffff91;
+            bottom: -150px;
+            transition: all 0.3s linear;
+        }
+        &:hover .text{
+            bottom: 0;
+
+        }
+    }
+    .item-3{
+        margin: auto;
+        width: 24%;
+        height: 350px;
+        border-radius: 15px;
+        background-image: url('https://i.pinimg.com/736x/90/01/4c/90014c0ad39d4d81644ada801671260d.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        overflow: hidden;
+        .text{
+            width: 100%;
+            padding: 10px;
+            color: black;
+            position: absolute;
+            background-color: #ffffff91;
+            bottom: -150px;
+            transition: all 0.3s linear;
+        }
+        &:hover .text{
+            bottom: 0;
+
+        }
+    }
+}
+.box{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .item{
+        width: 60px;
+        background-color: white;
+        border: 1px solid gray;
+        display: flex;
+        align-items: center;
+        height: 60px;
+        border-radius: 30px;
+        overflow: hidden;
+        transition: all 0.3s linear;
+        .logo{
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+        }
+        p{
+            display: none;
+            padding-right: 10px;
+            transition: all 0.3s linear;
+        }
+        &:hover {
+            width: auto;
+            color: blue;
+            p{
+                display: block;
+            }
+            .logo{
+                background-color: blue;
+                color: white;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+
